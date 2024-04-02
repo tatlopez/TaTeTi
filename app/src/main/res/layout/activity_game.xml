@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:id="@+id/lblJugador"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Y el ganador es... "
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:id="@+id/lblGanador" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:id="@+id/btnCentro"
+        />
+
+    <Button
+        android:id="@+id/btnCentroAbajo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCentro"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="_" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/btnCentro"
+        android:id="@+id/btnCentroArriba"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/btnCentro"
+        android:layout_alignBaseline="@+id/btnCentro"
+        android:id="@+id/btnCentroDerecha"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@+id/btnCentro"
+        android:layout_alignBaseline="@+id/btnCentro"
+        android:id="@+id/btnCentroIzquierda"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/btnCentro"
+        android:layout_alignBaseline="@+id/btnCentroArriba"
+        android:id="@+id/btnArribaDerecha"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@+id/btnCentro"
+        android:layout_alignBaseline="@+id/btnCentroArriba"
+        android:id="@+id/btnArribaIzquierda"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/btnCentro"
+        android:layout_alignBaseline="@+id/btnCentroAbajo"
+        android:id="@+id/btnAbajoDerecha"
+        android:layout_margin="5dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@+id/btnCentroAbajo"
+        android:layout_alignBaseline="@+id/btnCentroAbajo"
+        android:id="@+id/btnAbajoIzquierda"
+        android:layout_margin="5dp"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver a Jugar"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnCentroAbajo"
+        android:id="@+id/btnOtraVez"
+        android:layout_margin="25sp"
+        />
+
+
+</RelativeLayout>
